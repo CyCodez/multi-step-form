@@ -180,7 +180,7 @@ span {
   margin-top: 10px;
 }
 .toggle {
-  width: 75px;
+  width: 100px;
   height: 25px;
   margin-top: 10px;
   margin-left: 38px;
@@ -541,7 +541,7 @@ hr {
     gap: 25px;
     border-radius: 5px;
     padding: 10px;
-    width: 200px;
+    width: 235px;
     height: 40px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -558,7 +558,7 @@ hr {
   .b-n {
     display: flex;
     gap: 162px;
-    margin-top: 70px;
+    margin-top: 40px;
   }
   .bk {
     margin-top: 108px;
