@@ -751,7 +751,7 @@ hr {
     flex-direction: column;
     margin-top: -100px;
     margin-left: -20px;
-    max-width: 125%;
+    max-width: 110%;
     text-align: justify;
     position: absolute;
     background-color: hsl(0, 0%, 100%);
