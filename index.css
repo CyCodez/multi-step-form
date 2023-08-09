@@ -744,4 +744,13 @@ hr {
   .month-total span {
     white-space: nowrap;
   }
+  .thank-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+    margin-left: -20px;
+    text-align: justify;
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+  }
 }
