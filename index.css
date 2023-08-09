@@ -652,7 +652,7 @@ hr {
     border-radius: 5px;
     padding: 10px;
     width: 280px;
-    margin-left: 4px;
+    margin-left: 1px;
     height: 50px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -701,7 +701,7 @@ hr {
   .b-n-ks {
     display: flex;
     gap: 280px;
-    margin-top: 300px;
+    margin-top: 180px;
   }
   .toggle {
     width: 80px;
