@@ -561,7 +561,7 @@ hr {
     margin-top: 5px;
   }
   .bk {
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 35px;
     font-size: larger;
     font-weight: 700;
@@ -723,9 +723,13 @@ hr {
     border-style: none;
     white-space: nowrap;
     width: 80px;
-    margin-left: -45px;
-    margin-top: 85px;
+    margin-left: -155px;
+    margin-top: 80px;
     padding: 15px;
     transition: background-color 0.5s ease;
+  }
+  .page3 span {
+    margin-left: 10px;
+    text-align: justify;
   }
 }
