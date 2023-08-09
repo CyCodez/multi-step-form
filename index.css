@@ -561,7 +561,7 @@ hr {
     margin-top: 5px;
   }
   .bk {
-    margin-top: 108px;
+    margin-top: 100px;
     margin-left: 35px;
     font-size: larger;
     font-weight: 700;
@@ -715,5 +715,17 @@ hr {
   }
   .check-elem {
     margin-top: 20px;
+  }
+  .confirm-btn {
+    background-color: hsl(243, 100%, 62%);
+    color: hsl(0, 94%, 93%);
+    border-radius: 5px;
+    border-style: none;
+    white-space: nowrap;
+    width: 80px;
+    margin-left: -45px;
+    margin-top: 85px;
+    padding: 15px;
+    transition: background-color 0.5s ease;
   }
 }
