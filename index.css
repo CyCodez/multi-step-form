@@ -753,4 +753,15 @@ hr {
     position: absolute;
     background-color: hsl(0, 0%, 100%);
   }
+  .thanks-para {
+    /* inline-size: 550px;
+  text-align: center;
+  overflow-wrap: break-word;
+  hyphens: manual;
+  line-height: 1.5;
+  font-size: large; */
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+  }
 }
