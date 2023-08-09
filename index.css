@@ -367,7 +367,7 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-top: -500px;
+    margin-top: -450px;
     margin-left: 18px;
     max-width: 100%;
     overflow: hidden;
@@ -449,11 +449,11 @@ hr {
     display: none;
   }
   .input-elem {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-left: 30px;
     margin: 10;
     width: 70%;
-    height: 2%;
+    height: 1%;
     padding: 12px;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(231, 11%, 63%);
@@ -462,7 +462,7 @@ hr {
   label {
     font-weight: bold;
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: hsl(213, 96%, 18%);
   }
   .step-btn {
@@ -472,7 +472,7 @@ hr {
     white-space: nowrap;
     width: 80px;
     margin-left: 235px;
-    margin-top: 350px;
+    margin-top: 300px;
     padding: 10px;
     transition: background-color 0.5s ease;
   }
