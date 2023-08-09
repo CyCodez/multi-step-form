@@ -752,6 +752,7 @@ hr {
     text-align: justify;
     position: absolute;
     background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
   }
   .thanks-para {
     text-align: justify;
@@ -760,10 +761,10 @@ hr {
     margin-left: 25px;
   }
   .thanks-h {
-    margin-left: 100px;
+    margin-left: 180px;
     font-size: large;
   }
   .thanks-img {
-    margin-left: 100px;
+    margin-left: 180px;
   }
 }
