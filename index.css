@@ -393,7 +393,7 @@ hr {
     height: 60%;
     border: 1px solid black;
     border-radius: 5%;
-    margin-left: 32px;
+    margin-left: 29px;
     position: absolute;
     background-color: white;
     overflow: hidden;
@@ -481,7 +481,7 @@ hr {
     border-radius: 5px;
     white-space: nowrap;
     width: 80px;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-top: 270px;
     padding: 10px;
     transition: background-color 0.5s ease;
