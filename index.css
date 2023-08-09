@@ -638,7 +638,7 @@ hr {
     font-weight: 700;
     margin-left: -55px;
     font-size: large;
-    margin-top: 10px;
+    margin-top: 5px;
     white-space: nowrap;
   }
   .online span {
@@ -651,8 +651,8 @@ hr {
     flex-direction: row;
     border-radius: 5px;
     padding: 10px;
-    width: 250px;
-    margin-left: 20px;
+    width: 280px;
+    margin-left: 15px;
     height: 50px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -712,5 +712,8 @@ hr {
     border-radius: 12.5px;
     position: relative;
     cursor: pointer;
+  }
+  .check-elem {
+    margin-top: 20px;
   }
 }
