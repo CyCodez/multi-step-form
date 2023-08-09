@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="info-div">
+        <h1>Personal info</h1>
+        <p>Please provide your name, <br />email address, and phone number.</p>
+
+        <label for="name">Name</label>
+        <input
+          class="input-elem"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="e.g. Stephen King"
+          required
+        />
+        <label for="email">Email Address</label>
+        <input
+          class="input-elem"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="e.g. stephenking@lorem.com"
+          required
+        />
+        <label for="phone">Phone Number</label>
+        <input
+          class="input-elem"
+          type="phone"
+          id="phone"
+          name="phone"
+          placeholder="e.g. +1 234 567 890 "
+          required
+        />
+      </div>
+      <div class="step-div">
+        <button onclick="navigateToPage('page2.html')" class="step-btn">
+          Next Step
+        </button>
+      </div>
+
+      <script>
+        function navigateToPage(page) {
+          fetch(page)
+            .then((response) => response.text())
+            .then((content) => {
+              document.getElementById("content").innerHTML = content;
+            });
+        }
+        function toggleSwitch(element) {
+          element.classList.toggle("active");
+        }
+      </script>
+    </form>
+  </body>
+</html>

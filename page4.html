@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page3">
+      <div>
+        <h1>Finishing up</h1>
+        <p><span>Double-check everything looks OK before confirming.</span></p>
+      </div>
+      <div class="arc-monthly">
+        <div>
+          <h3>Arcade (Monthly)</h3>
+          <p>change</p>
+        </div>
+        <div class="price-element">$9/mo</div>
+      </div>
+      <!-- 
+    Access to multiplayer games  Extra 1TB of cloud save
+    +$2/mo Customizable Profile Custom theme on your profile +$2/mo Go Back Next
+    Step -->
+      <div class="arc-month">
+        <div>
+          <hr />
+
+          <p><span>Online service</span></p>
+        </div>
+        <div class="price-elements">+$1/mo</div>
+      </div>
+      <div class="arc-monthly">
+        <div>
+          <p><span>Larger storage</span></p>
+        </div>
+        <div class="price-elements">+$2/mo</div>
+      </div>
+      <div class="month-total">
+        <div><span>Total(per month)</span></div>
+        <div class="m-t">+$12/mo</div>
+      </div>
+    </div>
+    <div class="b-n-ks">
+      <div class="bk" onclick="goBack()">Go Back</div>
+      <div>
+        <button class="confirm-btn" onclick="navigateToPage('thanks.html')">
+          confirm
+        </button>
+      </div>
+    </div>
+    <script>
+      function navigateToPage(page) {
+        fetch(page)
+          .then((response) => response.text())
+          .then((content) => {
+            document.getElementById("content").innerHTML = content;
+          });
+      }
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>

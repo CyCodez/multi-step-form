@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page2">
+      <div>
+        <h1>Select your plan</h1>
+        <p>You have the option of monthly or yearly billing.</p>
+      </div>
+      <div class="page2-flex">
+        <!-- Advanced $12/mo Pro $15/mo Monthly Yearly Go Back Next Step -->
+        <div class="box">
+          <div><img src="./assets/images/icon-arcade.svg" /></div>
+          <div class="page2-div">
+            <h3>Arcade<br /><span>$9/mo</span></h3>
+          </div>
+        </div>
+        <div class="box">
+          <div><img src="./assets/images/icon-advanced.svg" /></div>
+          <div class="page2-div">
+            <h3>Advanced<br /><span>$12/mo</span></h3>
+          </div>
+        </div>
+        <div class="box">
+          <div><img src="./assets/images/icon-pro.svg" /></div>
+          <div class="page2-div">
+            <h3>Pro<br /><span>$15/mo</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="m-y">
+      <div class="month">Monthly</div>
+      <div class="toggle" onclick="toggleSwitch(this)">
+        <div class="toggle-circle"></div>
+      </div>
+      <div class="year">Yearly</div>
+    </div>
+    <div class="b-n">
+      <div class="bkp" onclick="goBack()">Go Back</div>
+      <div>
+        <button onclick="navigateToPage('page3.html')" class="next-btn">
+          Next Step
+        </button>
+      </div>
+    </div>
+  </body>
+  <script>
+    function toggleSwitch(element) {
+      element.classList.toggle("active");
+    }
+
+    function navigateToPage(page) {
+      fetch(page)
+        .then((response) => response.text())
+        .then((content) => {
+          document.getElementById("content").innerHTML = content;
+        });
+    }
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>

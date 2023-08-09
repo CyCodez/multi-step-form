@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!--    Larger storage Extra 1TB
+    of cloud save +$2/mo Customizable Profile Custom theme on your profile
+    +$2/mo Go Back Next Step -->
+
+    <div class="page3">
+      <div>
+        <h1>Pick add-ons</h1>
+        <p>
+          <span class="add-ons"
+            >Add-ons help enhance your gaming experience.</span
+          >
+        </p>
+      </div>
+      <div class="page3-flex">
+        <div class="box3">
+          <div class="check-elem">
+            <input type="checkbox" />
+          </div>
+          <div class="online">
+            <p>Online service</p>
+            <span>Access to multiplayer games</span>
+          </div>
+          <div class="price-elem"><p>+$1/mo</p></div>
+        </div>
+        <div class="box3">
+          <div class="check-elem">
+            <input type="checkbox" />
+          </div>
+          <div class="online">
+            <p>Larger storage</p>
+            <span>Extra 1TB of cloud save</span>
+          </div>
+          <div class="price-elem"><p>+$2/mo</p></div>
+        </div>
+        <div class="box3">
+          <div class="check-elem">
+            <input type="checkbox" />
+          </div>
+          <div class="online">
+            <p>Customizable Profile</p>
+            <span>Custom theme on your profile</span>
+          </div>
+          <div class="price-elem"><p>+$2/mo</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="b-n-k">
+      <div class="bk" onclick="goBack()">Go Back</div>
+      <div>
+        <button class="next-btns" onclick="navigateToPage('page4.html')">
+          Next Step
+        </button>
+      </div>
+    </div>
+    <script>
+      function navigateToPage(page) {
+        fetch(page)
+          .then((response) => response.text())
+          .then((content) => {
+            document.getElementById("content").innerHTML = content;
+          });
+      }
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
