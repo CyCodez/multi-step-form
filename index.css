@@ -757,12 +757,13 @@ hr {
     text-align: justify;
     line-height: 1;
     font-size: medium;
-    margin-left: 30px;
+    margin-left: 25px;
   }
   .thanks-h {
-    margin-left: 50px;
+    margin-left: 100px;
+    font-size: large;
   }
   .thanks-img {
-    margin-left: 50px;
+    margin-left: 100px;
   }
 }
