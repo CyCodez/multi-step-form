@@ -754,14 +754,15 @@ hr {
     background-color: hsl(0, 0%, 100%);
   }
   .thanks-para {
-    /* inline-size: 550px;
-  text-align: center;
-  overflow-wrap: break-word;
-  hyphens: manual;
-  line-height: 1.5;
-  font-size: large; */
     text-align: justify;
-    line-height: 1.5;
-    font-size: large;
+    line-height: 1;
+    font-size: medium;
+    margin-left: 30px;
+  }
+  .thanks-h {
+    margin-left: 50px;
+  }
+  .thanks-img {
+    margin-left: 50px;
   }
 }
