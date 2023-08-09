@@ -561,7 +561,16 @@ hr {
     margin-top: 5px;
   }
   .bk {
-    margin-top: 110px;
+    margin-top: 90px;
+    margin-left: 35px;
+    font-size: larger;
+    font-weight: 700;
+    color: hsl(213, 96%, 18%);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .bks {
+    margin-top: 105px;
     margin-left: 35px;
     font-size: larger;
     font-weight: 700;
@@ -636,7 +645,7 @@ hr {
   .online p {
     color: hsl(213, 96%, 18%);
     font-weight: 700;
-    margin-right: -35px;
+    margin-left: 30px;
     font-size: large;
     margin-top: 5px;
     white-space: nowrap;
