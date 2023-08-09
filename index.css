@@ -375,8 +375,6 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    /* margin-top: -450px;
-    margin-left: 18px; */
     max-width: 100%;
     overflow: hidden;
     margin: -450px auto;
@@ -395,7 +393,7 @@ hr {
     height: 60%;
     border: 1px solid black;
     border-radius: 5%;
-    margin-left: 10px;
+    margin-left: 32px;
     position: absolute;
     background-color: white;
     overflow: hidden;
@@ -483,7 +481,7 @@ hr {
     border-radius: 5px;
     white-space: nowrap;
     width: 80px;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 270px;
     padding: 10px;
     transition: background-color 0.5s ease;
