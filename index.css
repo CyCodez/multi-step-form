@@ -180,7 +180,7 @@ span {
   margin-top: 10px;
 }
 .toggle {
-  width: 50px;
+  width: 75px;
   height: 25px;
   margin-top: 10px;
   margin-left: 38px;
@@ -502,7 +502,7 @@ hr {
     margin-bottom: -50px;
     flex-direction: column;
     width: 83%;
-    height: 60%;
+    height: 70%;
     position: absolute;
     background-color: white;
     border-radius: 5%;
@@ -541,14 +541,14 @@ hr {
     gap: 25px;
     border-radius: 5px;
     padding: 10px;
-    width: 250px;
+    width: 200px;
     height: 40px;
     border: 1px solid hsl(243, 100%, 62%);
   }
   .m-y {
     height: 40px;
     width: 260px;
-    margin-top: 240px;
+    margin-top: 200px;
     background-color: hsl(217, 100%, 97%);
     display: flex;
     gap: 20px;
