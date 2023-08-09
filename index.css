@@ -541,7 +541,7 @@ hr {
     gap: 25px;
     border-radius: 5px;
     padding: 10px;
-    width: 235px;
+    width: 210px;
     height: 40px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -558,7 +558,7 @@ hr {
   .b-n {
     display: flex;
     gap: 162px;
-    margin-top: 40px;
+    margin-top: 5px;
   }
   .bk {
     margin-top: 108px;
