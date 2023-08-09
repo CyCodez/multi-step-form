@@ -636,14 +636,14 @@ hr {
   .online p {
     color: hsl(213, 96%, 18%);
     font-weight: 700;
-    margin-left: -35px;
+    margin-right: -35px;
     font-size: large;
     margin-top: 5px;
     white-space: nowrap;
   }
   .online span {
     white-space: nowrap;
-    margin-left: -35px;
+    margin-right: 95px;
   }
   .box3 {
     display: flex;
@@ -660,7 +660,7 @@ hr {
     margin-top: 8.5px;
     color: hsl(243, 100%, 62%);
     font-size: 16px;
-    margin-left: -230px;
+    margin-left: -330px;
   }
   .b-n-k {
     display: flex;
