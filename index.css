@@ -541,7 +541,7 @@ hr {
     gap: 25px;
     border-radius: 5px;
     padding: 10px;
-    width: 210px;
+    width: 212px;
     height: 40px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -584,7 +584,7 @@ hr {
     border-radius: 5px;
     white-space: nowrap;
     width: 80px;
-    margin-left: -30px;
+    margin-left: -45px;
     margin-top: 270px;
     padding: 10px;
     transition: background-color 0.5s ease;
