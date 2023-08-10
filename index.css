@@ -102,7 +102,7 @@ label {
 .pair {
   display: flex;
   gap: 10px;
-  margin-left: 30px;
+  margin-left: 38px;
 }
 
 .element1,
@@ -418,12 +418,12 @@ hr {
     overflow-wrap: break-word;
     hyphens: manual;
     line-height: 1.5;
-    font-size: small;
+    font-size: medium;
   }
   .info-div h1 {
     text-align: center;
     white-space: nowrap;
-    margin-left: -80px;
+    margin-left: -152px;
     margin-bottom: -2px;
     font-size: large;
   }
@@ -468,7 +468,7 @@ hr {
     display: none;
   }
   .input-elem {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     margin-left: 30px;
     margin: 10;
     width: 70%;
@@ -620,17 +620,18 @@ hr {
     position: absolute;
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
-    margin-left: 10px;
+    margin-left: 14px;
     overflow: hidden;
   }
   .page3 h1 {
-    margin-left: 24px;
-    font-size: medium;
+    margin-left: 21px;
+    font-size: large;
   }
   .add-ons {
     margin-bottom: 20px;
     margin-top: 50px;
-    margin-left: -45px;
+    margin-left: 1px;
+    text-align: justify;
     font-size: large;
     color: hsl(231, 11%, 63%);
   }
@@ -662,7 +663,7 @@ hr {
     border-radius: 5px;
     padding: 10px;
     width: 280px;
-    margin-left: 25px;
+    margin-left: 23px;
     height: 50px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -738,12 +739,14 @@ hr {
     padding: 15px;
     transition: background-color 0.5s ease;
   }
-  .page3 span {
-    margin-left: 10px;
+  .page3 p {
+    margin-left: 15px;
     text-align: justify;
   }
+
   .month-total span {
     white-space: nowrap;
+    margin-left: 25px;
   }
   .thank-div {
     overflow-y: hidden;
@@ -762,7 +765,7 @@ hr {
     text-align: justify;
     line-height: 1;
     font-size: medium;
-    margin-left: 45px;
+    margin-left: 40px;
   }
   .thanks-h {
     margin-left: 150px;
@@ -770,5 +773,9 @@ hr {
   }
   .thanks-img {
     margin-left: 150px;
+  }
+  .arc-para {
+    color: hsl(243, 100%, 62%);
+    margin-left: 8px;
   }
 }
