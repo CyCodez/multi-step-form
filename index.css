@@ -387,7 +387,7 @@ hr {
     gap: 50px;
     max-width: 100%;
     overflow: hidden;
-    margin: -450px auto;
+    margin: -510px auto;
   }
   .scaled-svg {
     height: 650px;
@@ -397,13 +397,13 @@ hr {
   .info-div {
     display: flex;
     flex-direction: column;
-    margin-top: -150px;
+    margin-top: -70px;
     width: 83%;
     max-width: 100%;
     height: 60%;
     border: 1px solid black;
     border-radius: 5%;
-    margin-left: 29px;
+    margin-left: 32px;
     position: absolute;
     background-color: white;
     overflow: hidden;
@@ -491,8 +491,8 @@ hr {
     border-radius: 5px;
     white-space: nowrap;
     width: 80px;
-    margin-left: 200px;
-    margin-top: 270px;
+    margin-left: 250px;
+    margin-top: 350px;
     padding: 10px;
     transition: background-color 0.5s ease;
   }
@@ -506,8 +506,8 @@ hr {
     position: absolute;
     background-color: white;
     border-radius: 5%;
-    margin-top: -150px;
-    margin-left: 29px;
+    margin-top: -70px;
+    margin-left: 33px;
     overflow: hidden;
   }
   .page2-div {
@@ -516,7 +516,7 @@ hr {
   .page2 p {
     margin-bottom: 20px;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 38px;
     font-size: large;
     color: hsl(231, 11%, 63%);
   }
@@ -531,13 +531,13 @@ hr {
     margin-top: 10px;
     font-size: medium;
     margin-bottom: 100px;
-    margin-left: 20px;
+    margin-left: 40px;
     position: absolute;
   }
   .box {
     display: flex;
     flex-direction: row;
-    margin-left: -20px;
+    margin-left: 5px;
     gap: 25px;
     border-radius: 5px;
     padding: 10px;
@@ -548,17 +548,18 @@ hr {
   .m-y {
     height: 40px;
     width: 260px;
-    margin-top: 200px;
+    margin-top: 300px;
     background-color: hsl(217, 100%, 97%);
     display: flex;
     gap: 20px;
-    margin-left: 30px;
+    margin-left: 53px;
     position: absolute;
   }
   .b-n {
     display: flex;
     gap: 162px;
-    margin-top: 5px;
+    margin-top: 150px;
+    margin-left: 24px;
   }
   .bk {
     margin-top: 90px;
@@ -614,12 +615,12 @@ hr {
     display: flex;
     flex-direction: column;
     max-width: 95%;
-    height: 70%;
-    margin-top: -160px;
+    height: 60%;
+    margin-top: -70px;
     position: absolute;
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
-    margin-left: 8px;
+    margin-left: 10px;
     overflow: hidden;
   }
   .page3 h1 {
@@ -629,7 +630,7 @@ hr {
   .add-ons {
     margin-bottom: 20px;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: -45px;
     font-size: large;
     color: hsl(231, 11%, 63%);
   }
@@ -661,7 +662,7 @@ hr {
     border-radius: 5px;
     padding: 10px;
     width: 280px;
-    margin-left: 1px;
+    margin-left: 25px;
     height: 50px;
     border: 1px solid hsl(243, 100%, 62%);
   }
@@ -674,7 +675,7 @@ hr {
   .b-n-k {
     display: flex;
     gap: 380px;
-    margin-top: 150px;
+    margin-top: 250px;
   }
   .next-btns {
     background-color: hsl(213, 96%, 18%);
@@ -683,7 +684,7 @@ hr {
     /* white-space: nowrap; */
     width: 80px;
     margin-top: 80%;
-    margin-left: -205%;
+    margin-left: -170%;
     padding: 5px;
     transition: background-color 0.5s ease;
   }
@@ -710,7 +711,7 @@ hr {
   .b-n-ks {
     display: flex;
     gap: 280px;
-    margin-top: 180px;
+    margin-top: 270px;
   }
   .toggle {
     width: 80px;
@@ -732,7 +733,7 @@ hr {
     border-style: none;
     white-space: nowrap;
     width: 80px;
-    margin-left: -175px;
+    margin-left: -120px;
     margin-top: 80px;
     padding: 15px;
     transition: background-color 0.5s ease;
@@ -749,7 +750,7 @@ hr {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    margin-top: -106px;
+    margin-top: -70px;
     margin-left: -20px;
     max-width: 106%;
     text-align: justify;
@@ -761,13 +762,13 @@ hr {
     text-align: justify;
     line-height: 1;
     font-size: medium;
-    margin-left: 25px;
+    margin-left: 45px;
   }
   .thanks-h {
-    margin-left: 130px;
+    margin-left: 150px;
     font-size: large;
   }
   .thanks-img {
-    margin-left: 130px;
+    margin-left: 150px;
   }
 }
