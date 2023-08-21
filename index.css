@@ -1,5 +1,9 @@
 body,
 html {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Epilogue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Ubuntu', sans-serif;
   margin-left: 10px;
   margin-top: -1px;
   padding: 0;
